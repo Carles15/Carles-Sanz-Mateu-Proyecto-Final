@@ -1,0 +1,496 @@
+    <core-toolbar>
+      <paper-icon-button icon="menu">
+      </paper-icon-button>
+      <div flex>
+        Hola Mundo!
+      </div>
+      <paper-menu-button>
+        <paper-icon-button icon="more-vert">
+        </paper-icon-button>
+        <paper-dropdown class="dropdown" halign="right">
+          <core-menu>
+            <paper-item><a href="/#/#portada">Portada</a></paper-item>
+            <paper-item><a href="/#/#seccion2">Seccion 2</a></paper-item>
+            <paper-item><a href="/#/#seccion3">Seccion 3</a></paper-item>
+            <paper-item><a href="/#/#seccion4">Seccion 4</a></paper-item>
+            <paper-item><a href="/#/#seccion5">Seccion 5</a></paper-item>
+            <paper-item><a href="/#/#seccion6">Seccion 6</a></paper-item>
+            <paper-item><a href="/#/grid">Grid</a></paper-item>
+          </core-menu>
+        </paper-dropdown>
+        </paper-menu-button>
+    </core-toolbar>
+
+
+    <md-whiteframe class="md-whiteframe-z3 welcomeBannerContainer" layout layout-align="center center" id="portada">
+      <md-whiteframe class="md-whiteframe-z5 welcomeBannerInsideContainer" layout layout-align="center center">
+        <span>Carles Sanz Mateu</span>
+      </md-whiteframe>
+    </md-whiteframe>
+
+    <div class="section2" id="seccion2">
+
+      <md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="20px" md-gutter-gt-sm="20px" class="section2Top">
+        
+        <md-grid-tile class="section2TopLeft md-whiteframe-z5" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+          <md-grid-tile-footer>
+            <h3>Grid List</h3>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+
+        <md-grid-tile class="section2TopRight md-whiteframe-z5" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+          <md-grid-tile-footer>
+            <h3>Grid List</h3>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+
+      </md-grid-list>
+
+      <div class="section2Bottom" layout="row">
+        <md-whiteframe class="section2BottomDetail section2BottomDetailPrincipal md-whiteframe-z3" flex>
+          [flex]
+        </md-whiteframe>
+        <div class="section2BottomDetail section2BottomDetailSecondary" flex>
+          
+        </div>
+        <md-whiteframe class="section2BottomDetail section2BottomDetailPrincipal md-whiteframe-z3" flex>
+          [flex]
+        </md-whiteframe>
+        <div class="section2BottomDetail section2BottomDetailSecondary" flex>
+          
+        </div>
+        <md-whiteframe class="section2BottomDetail section2BottomDetailPrincipal md-whiteframe-z3" flex hide-sm>
+          [flex]
+        </md-whiteframe>
+      </div>
+
+    </div>
+
+
+    <div class="section3" id="seccion3">
+      <video class="md-whiteframe-z3" preload loop silenced src="videos/video1.mp4" controls></video>
+      <paper-button raised class="boton1Section3">Button</paper-button>
+    </div>
+
+    <div class="section4" layout="row" id="seccion4"> 
+
+      <div flex="45">
+
+        <md-whiteframe class="md-whiteframe-z4 mainUser" layout layout-align="center center">
+          <md-whiteframe class="md-whiteframe-z3 mainUserInside" layout layout-align="center center">
+          </md-whiteframe>
+        </md-whiteframe>
+
+        <md-whiteframe class="md-whiteframe-z3 trendingComment" layout="column" style="background-color: #D6D6D7">
+          <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #303337;">
+            <h3 style="color: white;">"Polymer mola..."</h3>
+          </md-whiteframe>
+
+          <p>“-Hoy maestro, he aprendido por qué los grandes amantes tienen mejor vista que los grandes eruditos… Todos los libros interesantes se encuentran en lugares interiores y mal iluminados. En cambio, las muchachas adorables suelen estar al aire libre, y por lo tanto es mucho más fácil estudiarlas sin riesgo de estropearse la vista… Pero cuando encontré un sitio al sol donde podía leer, una muchacha hermosa se me acercó y me impidió dedicarme a la lectura.”</p>
+
+          <md-whiteframe class="md-whiteframe-z1" style="background-color: #838587;">
+            <md-button>Me gusta</md-button> 69.815 
+
+            <md-button class="md-fab md-hue-2 plusone" aria-label="I Like It">
+              + 1
+            </md-button>
+
+          </md-whiteframe>
+        </md-whiteframe>
+
+      </div>
+
+
+      <div flex="45" layout="column" style="margin-left: 7%;">
+
+        <md-divider></md-divider>
+
+        <div layout="row" style="margin-bottom: 2.5%; margin-top: 2.5%">
+          <div flex="25">
+            <md-whiteframe class="md-whiteframe-z4 users" layout layout-align="center center">
+              <md-whiteframe class="md-whiteframe-z3 usersInside primerComment" layout layout-align="center center">
+              </md-whiteframe>
+            </md-whiteframe>
+          </div>
+          <div  flex="70">
+            <md-whiteframe class="md-whiteframe-z3 NotTrendingComments" layout="column">
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #303337;">
+                <h5 style="color: white;">"Polymer me odia, ayuda!"</h5>
+              </md-whiteframe>
+              <p>“- No se como conseguir que este framework me funcione, creo que conspira contra mi!”</p>
+              <md-button class="md-fab md-hue-2 plusoneNotTrending" aria-label="I Like It">
+                + 1
+              </md-button>
+            </md-whiteframe>
+          </div>
+        </div>
+
+        <md-divider></md-divider>
+
+        <div layout="row" style="margin-bottom: 2.5%; margin-top: 2.5%">
+          <div flex="25">
+            <md-whiteframe class="md-whiteframe-z4 users" layout layout-align="center center">
+              <md-whiteframe class="md-whiteframe-z3 usersInside segundoComment" layout layout-align="center center">
+              </md-whiteframe>
+            </md-whiteframe>
+          </div>
+          <div  flex="70">
+            <md-whiteframe class="md-whiteframe-z3 NotTrendingComments" layout="column">
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #474747;">
+                <h5 style="color: white;">"Norman Augustine"</h5>
+              </md-whiteframe>
+              <p>“-El software es como la entropía: difícil de atrapar, no pesa, y cumple la Segunda Ley de la Termodinámica, es decir, tiende a incrementarse”</p>
+              <md-button class="md-fab md-hue-2 plusoneNotTrending" aria-label="I Like It">
+                + 1
+              </md-button>
+            </md-whiteframe>
+          </div>
+        </div>
+
+        <md-divider></md-divider>
+
+        <div layout="row" style="margin-bottom: 2.5%; margin-top: 2.5%">
+          <div flex="25">
+            <md-whiteframe class="md-whiteframe-z4 users" layout layout-align="center center">
+              <md-whiteframe class="md-whiteframe-z3 usersInside tercerComment" layout layout-align="center center">
+              </md-whiteframe>
+            </md-whiteframe>
+          </div>
+          <div  flex="70">
+            <md-whiteframe class="md-whiteframe-z3 NotTrendingComments" layout="column">
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #595959;">
+                <h5 style="color: white;">"El del cable"</h5>
+              </md-whiteframe>
+              <p>“- No te tomes la vida en serio. Al fin y al cabo, no saldrás vivo de ella.”</p>
+              <md-button class="md-fab md-hue-2 plusoneNotTrending" aria-label="I Like It">
+                + 1
+              </md-button>
+            </md-whiteframe>
+          </div>
+        </div>
+
+        <md-divider></md-divider>
+
+        <div layout="row" style="margin-bottom: 2.5%; margin-top: 2.5%">
+          <div flex="25">
+            <md-whiteframe class="md-whiteframe-z4 users" layout layout-align="center center">
+              <md-whiteframe class="md-whiteframe-z3 usersInside cuartoComment" layout layout-align="center center">
+              </md-whiteframe>
+            </md-whiteframe>
+          </div>
+          <div  flex="70">
+            <md-whiteframe class="md-whiteframe-z3 NotTrendingComments" layout="column">
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #7A7A7A;">
+                <h5 style="color: white;">"¿Batman es científico?"</h5>
+              </md-whiteframe>
+              <p>“- Seguid avanzando! <br/>
+              Pero Vanzando se escapó porque era más rápido que Batman.”</p>
+              <md-button class="md-fab md-hue-2 plusoneNotTrending" aria-label="I Like It">
+                + 1
+              </md-button>
+            </md-whiteframe>
+          </div>
+        </div>
+
+        <md-divider></md-divider>
+
+        <div layout="row" style="margin-bottom: 2.5%; margin-top: 2.5%">
+          <div flex="25">
+            <md-whiteframe class="md-whiteframe-z4 users" layout layout-align="center center">
+              <md-whiteframe class="md-whiteframe-z3 usersInside quintoComment" layout layout-align="center center">
+              </md-whiteframe>
+            </md-whiteframe>
+          </div>
+          <div  flex="70">
+            <md-whiteframe class="md-whiteframe-z3 NotTrendingComments" layout="column">
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="background-color: #BEBEBE;">
+                <h5 style="color: white;">"¿Cual será tu verso?"</h5>
+              </md-whiteframe>
+              <p>“- Oh mi yo, oh vida de sus preguntas <br/>
+                que vuelven del desfile interminable de los desleales, <br/>
+                de las ciudades llenas de necios. <br/>
+                ¿Qué hay de bueno en estas cosas? <br/>
+                Que tú estás aquí, <br/>
+                que existe la vida y la identidad, <br/>
+                que prosigue el poderoso drama <br/>
+                y que tú puedes contribuir con un verso <br/>
+                ¡que prosigue el poderoso drama <br/>
+                y que tú puedes contribuir con un verso!”</p>
+                <md-button class="md-fab md-hue-2 plusoneNotTrending" aria-label="I Like It">
+                + 1
+              </md-button>
+            </md-whiteframe>
+          </div>
+        </div>
+
+      </div>
+      
+
+    </div> <!-- Section 4 END -->
+
+    <md-divider></md-divider>
+
+    <div class="section5" id="seccion5">
+
+      <div class="polymerFormElements">
+        <md-whiteframe class="md-whiteframe-z3 formOne" layout="column">
+          <h2>Formulario - Polymer</h2>
+          <span>
+            <paper-input label="Nombre" class="nombre"></paper-input>
+          </span>
+          <span>
+            <paper-input label="Primer apellido" class="primerApellido" floatingLabel></paper-input>
+            <paper-input label="Segundo apellido" class="segundoApellido" disabled></paper-input>
+          </span>
+          <span>
+            <paper-checkbox label="Me gusta el olor de Polymer por la mañana"></paper-checkbox> <br/>
+            <paper-checkbox checked label="Me gusta el olor de las palomitas por la mañana"></paper-checkbox>
+          </span>
+          <span>
+            <paper-radio-button label="Soy guay"></paper-radio-button> <br/>
+            <paper-radio-button disabled label="Polymer es guay"></paper-radio-button> <br/>
+            <paper-radio-button toggles label="Hazme click!"></paper-radio-button>
+          </span>
+        </md-whiteframe>
+      </div>
+
+      <div class="angularMaterialsFormElements">
+        <md-whiteframe class="md-whiteframe-z3 formTwo" layout="column">
+          <h2>Formulario - Angular Materials</h2>
+          <span>
+            <md-input-container>
+              <label>Nombre</label>
+              <input name="nombre" ng-model="name">
+            </md-input-container>
+          </span>
+          <span>
+            <md-input-container class="primerApellido">
+              <label>Primer apellido</label>
+              <input name="lastName" ng-model="apellido1" required md-maxlength="50" minlength="5">
+            </md-input-container>
+            <md-input-container class="segundoApellido">
+              <label>Segundo apellido</label>
+              <input name="lastName" ng-model="apellido2" required md-maxlength="50" minlength="5" disabled>
+            </md-input-container>
+          </span>
+          <span>
+            <md-radio-group ng-model="selected">
+              <md-radio-button value="1" aria-label="Angular Materials!">
+                Angular Materials!
+              </md-radio-button>
+              <md-radio-button aria-label="like">
+                like
+              </md-radio-button>
+              <md-radio-button aria-label="like">
+                <img ng-src="http://www.ocpsoft.org/wp-content/uploads/2013/01/angularjs.png"></img>
+              </md-radio-button>
+              <md-radio-button aria-label="polymer" disabled>
+                <img ng-src="https://www.polymer-project.org/images/logos/p-logo.svg" style="height: 120px; width: 120px;"></img>
+              </md-radio-button>
+            </md-radio-group>
+          </span>
+          <span>
+            <md-select ng-model="someModel">
+              <md-select-label>Select a state</md-select-label>
+              <md-option>Opción 1</md-option>
+              <md-option>Opción 2</md-option>
+              <md-option>Opción 3</md-option>
+              <md-option>Opción 4</md-option>
+              <md-option>Opción 5</md-option>
+            </md-select>
+          </span>
+          <span>
+            <md-slider ng-model="a" min="0" max="100"></md-slider>
+            <md-slider ng-model="b" min="5" max="500" md-discrete></md-slider>
+            <md-slider ng-model="c" min="5" max="500" disabled></md-slider>
+          </span>
+        </md-whiteframe>
+      </div>
+    </div> <!-- Section 5 END -->
+
+    <md-divider></md-divider>
+
+    <div class="section6">
+
+      <div class="portada" id="seccion6">
+
+      </div>
+
+      <md-whiteframe class="md-whiteframe-z1 portadaSeparatorSection6" layout layout-align="center center">
+      
+      </md-whiteframe>
+
+      <md-whiteframe class="md-whiteframe-z1 profileImageSection6" layout layout-align="center center">
+      </md-whiteframe>
+
+      <div layout="row" class="socialContent">
+        <div flex="30">
+          
+          <md-whiteframe class="md-whiteframe-z1 socialMenu" layout="column">
+            <md-whiteframe class="md-whiteframe-z1 portadaSeparatorSection6" layout layout-align="center center">
+              <h3 style="color: #FFF;">
+                Social Menu
+              </h3>
+            </md-whiteframe>
+            
+
+            <md-divider></md-divider>
+
+            <md-button>Amigos</md-button>
+            <md-button>Eventos</md-button>
+            <md-button>Grupos</md-button>
+
+             <md-grid-list md-cols="6" md-row-height-gt-md="150px"  md-gutter="5px">
+        
+              <md-grid-tile class="section2TopLeft md-whiteframe-z5 pic1" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Vacaciones en Naboo</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopRight md-whiteframe-z5 pic2" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Estrella de la muerte</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopLeft md-whiteframe-z5 pic3" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Amigos</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopRight md-whiteframe-z5 pic4" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Amo Vader ♥</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+            </md-grid-list>
+
+          </md-whiteframe>
+
+          <md-whiteframe class="md-whiteframe-z1 friends" layout="column">
+
+          <md-whiteframe class="md-whiteframe-z1 portadaSeparatorSection6" layout layout-align="center center">
+            <h3 style="color: #FFF;">
+              Friends
+            </h3>
+          </md-whiteframe>
+          <md-grid-list md-cols="6" md-row-height-gt-md="150px"  md-gutter="5px">
+        
+              <md-grid-tile class="section2TopLeft md-whiteframe-z5 Darth" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Darth Vader</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopRight md-whiteframe-z5 Obi" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Obi Wan Kenobi</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopLeft md-whiteframe-z5 Tramer" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Tramerbank</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+              <md-grid-tile class="section2TopRight md-whiteframe-z5 Taronja" md-rowspan="1" md-colspan="3" md-colspan-sm="1">
+                <md-grid-tile-footer>
+                  <h3>Taronjabank</h3>
+                </md-grid-tile-footer>
+              </md-grid-tile>
+
+            </md-grid-list>
+
+
+          </md-whiteframe>
+        </div>
+
+        <div flex="10">
+        </div>
+
+        <div flex="60">
+          <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" style="margin-left: 1%; width: 98%;">
+            <div style="width: 100%;">
+              <h3>Tramer Bank</h3>
+              <md-input-container>
+                <label>¿Que está pasando? Deja un comentario...</label>
+                <input ng-model="comentario" required md-maxlength="500" type="text">
+              </md-input-container>
+            </div>
+          </md-whiteframe>
+
+          <md-card>
+            <img ng-src="http://cdn.screenrant.com/wp-content/uploads/Obi-Wan-Kenobi-Ewan-McGregor-Star-Wars-Spinoff.jpg" class="md-card-image" alt="Washed Out" style="height: 200px;">
+            <md-card-content>
+              <h2 class="md-title">Obi Wan Kenobi <span style="font-size: 35px;">#</span> <span style="font-size: 15px; color: grey;">Sois amigos</span></h2> 
+              <p>
+                ¿No os llamaís el primer banco <span style="color: red">#jedi</span>?!! <span style="color: red">#TramerBank</span> os estaís liando.<br/>
+
+                Ya no me fio.
+              </p>
+            </md-card-content>
+          </md-card>
+
+          <md-card>
+            <img ng-src="https://s-media-cache-ak0.pinimg.com/736x/fd/1f/e0/fd1fe00edc2fab329577806ed901bc90.jpg" class="md-card-image" alt="Washed Out">
+            <md-card-content>
+              <h2 class="md-title">Enlist!</h2>
+              <p>
+                El toque vintage me favorece, a tí tambíen puede favorecerte! Alistate hoy! <span style="color: red">#ElNoPuedeHacerloSolo</span>
+              </p>
+            </md-card-content>
+          </md-card>
+
+          <md-card>
+            <img ng-src="http://images6.alphacoders.com/394/394368.jpg" class="md-card-image" alt="Washed Out">
+            <md-card-content>
+              <h2 class="md-title">Japanese</h2>
+              <p>
+                Como el Señor Vader nos ha dado el día libre hoy me he echo un autoretrato! ♥ <span style="color: red">#Vacaciones</span>
+              </p>
+            </md-card-content>
+          </md-card>
+
+          <md-card>
+            <img ng-src="https://georgesjournal.files.wordpress.com/2010/10/the_empire_strikes_back_darth_vader_lightsaber.jpg" class="md-card-image" alt="Washed Out" style="height: 200px;">
+            <md-card-content>
+              <h2 class="md-title">Darth Vader <span style="font-size: 35px;">#</span> <span style="font-size: 15px; color: grey;">Sois amigos</span></h2> 
+              <p>
+                Enhorabuena <span style="color: red">#TramerBank</span> por unirte a las tropas imperiales, <span style="color: red">#destruyamosRebeldes</span> juntos!
+              </p>
+            </md-card-content>
+          </md-card>
+
+          <md-card>
+            <img ng-src="http://1.bp.blogspot.com/-rmps4Hfx4Y4/UmnjJYHX4gI/AAAAAAAAQ2g/cdOVOB8r6k8/s1600/give-those-rebels-hell.jpg" class="md-card-image" alt="Washed Out">
+            <md-card-content>
+              <h2 class="md-title">Hoy me he unido a las tropas imperiales</h2>
+              <p>
+                Hoy es un gran día porque he podido unirme al ejercito imperial, estoy como <span style="color: red">#superNervioso</span>, pero solo espero
+                conocer a la chica del cartel! <span style="color: red">#TramerBank♥Empire</span>
+              </p>
+            </md-card-content>
+          </md-card>
+        </div>
+
+      </div> <!-- End Section 6 -->
+
+      <core-toolbar>
+        <div layout="column" style="bottom: 55% !important; position: absolute;">
+          <md-button class="md-fab" aria-label="Eat cake">
+            <img ng-src="http://img1.wikia.nocookie.net/__cb20111228065136/simpsons/images/1/11/Twitter_bird_icon.png" style="height: 40px; width: 40px;"></img>
+          </md-button>
+          <md-button class="md-fab" aria-label="Eat cake">
+              <img ng-src="https://salsa3.salsalabs.com/o/50235/images/Facebook-icon.png" style="height: 40px; width: 40px;"></img>
+          </md-button>
+          <md-button class="md-fab" aria-label="Eat cake">
+              <img ng-src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Google-Plus-icon.png" style="height: 40px; width: 40px;"></img>
+          </md-button>
+        </div>
+        
+      </core-toolbar>
+    </div>

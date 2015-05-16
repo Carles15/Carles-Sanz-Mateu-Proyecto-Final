@@ -1,0 +1,326 @@
+body{
+	margin: 0px;
+	background-color: #EEF0EF;
+
+	core-toolbar{
+		background-color: #0066FF;
+	}
+
+	.welcomeBannerContainer{
+		width:90%;
+		margin-left: 5%;
+		height: 650px; 
+		margin-top: 2.5%;
+		background-color: #0066FF;
+
+		.welcomeBannerInsideContainer{
+			width:95%;
+			margin:auto;
+			height: 600px;
+			background-color: #FFF; 
+			background-image: url('http://4.bp.blogspot.com/-ci8zjNrp50I/U_yCxyehuzI/AAAAAAAADX4/uiAIDRcpUB4/s1600/ahagzjsozh.jpg');
+		}
+	}
+
+
+	.section2{
+		margin-top: 5%;
+		width: 100%;
+		height: 800px;
+
+		md-grid-list.section2Top{
+			width: 95%;
+			margin:0% auto;
+
+			md-grid-tile.section2TopLeft{
+				background-image: url('http://fc05.deviantart.net/fs70/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg');
+				background-size: 100% 100%;
+			}
+
+			md-grid-tile.section2TopRight{
+				background-image: url('http://fc05.deviantart.net/fs70/f/2015/030/e/c/_minflat__android_l_wallpaper_moonshine__4k__by_dakoder-d7uzmrv.jpg');
+				background-size: 100% 100%;
+			}
+			
+		}
+
+		div.section2Bottom{
+			width: 95%;
+			margin:0% auto;
+			margin-top: 5%;
+
+			div.section2BottomDetail{
+				height: 450px;
+			}
+
+			md-whiteframe.section2BottomDetailPrincipal{
+				background-color:#66CCFF;
+			}
+
+			div.section2BottomDetailSecondary{
+			
+			}
+		}
+	}
+
+	div.section3{
+
+		video {
+			min-width: 100%; 
+			min-height: 100%;
+			width: auto; 
+			height: auto; 
+		}
+
+		.boton1Section3{
+			bottom: 150px;
+			left: 1250px;
+			background-color: rgb(155, 155, 218);
+		}
+	}
+
+	div.section4{
+		height: 1500px;
+		margin-top: 5% !important;
+		margin-bottom: 10%;
+
+		.mainUser{
+			height: 550px;
+			width: 550px;
+			-webkit-border-radius: 300px;
+			-moz-border-radius: 300px;
+			border-radius: 300px;
+			background-color: #0066FF;
+
+
+			margin-left: 6.5% !important;
+
+			.mainUserInside{
+				height: 510px;
+				width: 510px;
+				-webkit-border-radius: 300px;
+				-moz-border-radius: 300px;
+				border-radius: 300px;
+				background-color: #FFF;
+				background-image: url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2012/11/Wallpaper-l-003.jpg');
+				background-size: 100% 100%;
+			}
+		}
+
+		.trendingComment{
+			width: 650px;
+			font-family:Indie Flower;
+			margin-top: 5% !important;
+			margin-left: 2% !important;
+
+			h3{
+				margin-left: 2%;
+			}
+			p{
+				margin: 2%;
+			}
+		}
+
+
+
+
+
+		.users{
+			height: 100px;
+			width: 100px;
+			-webkit-border-radius: 300px;
+			-moz-border-radius: 300px;
+			border-radius: 300px;
+			background-color: #0066FF;
+
+			.usersInside{
+				height: 95px;
+				width: 95px;
+				-webkit-border-radius: 300px;
+				-moz-border-radius: 300px;
+				border-radius: 300px;
+				background-color: #FFF;
+				background-image: url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2012/11/Wallpaper-l-003.jpg');
+				background-size: 100% 100%;
+			}
+
+			.primerComment{
+			 background-image: url('http://www.risasinmas.com/wp-content/uploads/2013/09/Gandalf-el-rosa-600x688.jpg');
+			}
+
+			.segundoComment{
+			 background-image: url('http://blog.chron.com/sciguy/files/legacy/archives/20090728_SpaceCommittee%287%29.JPG');
+			}
+			
+			.tercerComment{
+			 background-image: url('http://www.formulatv.com/fotos/a/16000/16169/1x63dmdxu2rufrd8gn4d03733218115_la-nina-del-pompero-huye.jpg');
+			}
+
+			.cuartoComment{
+			 background-image: url('http://imageserver.moviepilot.com/0cce6a4f6a773f42e7d9a29b7bfc7821bb99dcfc312e629852a5ebf68134709a-the-best-spider-man-memes-part-2.jpeg');
+			}
+
+			.quintoComment{
+			 background-image: url('http://www.wallozo.com/wp-content/uploads/2015/04/star_wars_wallpaper_stormtrooper_hd_6029wozsww_background.jpg');
+			}
+
+			
+		}
+
+		.NotTrendingComments{
+			width: auto;
+			font-family:Indie Flower;
+			margin-top: 2% !important;
+			margin-left: 2% !important;
+
+			h3{
+				margin-left: 2%;
+			}
+			p{
+				margin: 2%;
+			}
+		}
+
+
+		.plusone{
+			left: 67% !important;
+			bottom: 50% !important;
+		}
+
+		.plusoneNotTrending{
+			width: 39px !important;
+			height: 39px !important;
+			left: 95.5% !important;
+			bottom: 10px !important;
+		}		
+	}
+
+
+	.section5{
+		height: 1550px;
+
+		.polymerFormElements{
+			height: 500px;
+
+			.formOne{
+				width:90%;
+				margin-left: 5% !important;
+
+				span .nombre{
+					width: 100%;
+				}
+
+				span .primerApellido, .segundoApellido{
+					width: 48%;
+				}
+
+			}			
+		}
+
+
+		.angularMaterialsFormElements{
+		height: 900px;
+			.formTwo{
+				width:90%;
+				margin-left: 5% !important;
+
+				.primerApellido, .segundoApellido{
+					width: 45%;
+				}
+			}
+		}
+	}
+
+	
+	.section6{
+		height: 1550px;
+		margin-top: 10%;
+
+		.portada{
+			height: 500px;
+			width: 100%;
+			background-color: black;
+			background-image: url('https://c3.staticflickr.com/3/2497/3789485068_06d3da0036_b.jpg');
+			background-size: 100% 100%;
+		}
+
+		.portadaSeparatorSection6{
+			height: 30px;
+			width: 100%;
+			background-color: #303337;
+		}
+
+		.profileImageSection6{
+			height: 200px;
+			width: 200px;
+			-webkit-border-radius: 300px;
+			-moz-border-radius: 300px;
+			border-radius: 300px;
+
+			margin-top: -9% !important;
+			margin-left: 43%;
+
+			background-image: url('http://static.wallpedes.com/wallpaper/terrific/terrific-star-wars-storm-trooper-wallpaper-stormtrooper-wallpaper-iphone-android-1920x1080-4-for-walls-1080p-ipad-keyboard-helmet.jpg');
+			background-size: 100% 100%;
+		}
+
+		div.socialContent{
+			width: 95%;
+			margin-left: 2.5%;
+			margin-top: 3%;
+
+			.socialMenu{
+				.pic1{
+					background-image: url('http://fc01.deviantart.net/fs71/f/2011/297/e/d/stormtrooper_distracted_by_z_uo-d4dsymt.jpg');
+					background-size: 100% 100%;
+				}
+
+				.pic2{
+					background-image: url('http://www.wall321.com/thumbnails/detail/20120716/star%20wars%20stormtroopers%20peace%20v%20sign%201680x1050%20wallpaper_www.wall321.com_50.jpg');
+					background-size: 100% 100%;
+				}
+
+				.pic3{
+					background-image: url('http://www.darthlinux.com/backgrounds/storm_trooper_5_wallpapersuggest_com-1280x800.jpg');
+					background-size: 100% 100%;
+				}
+
+
+				.pic4{
+					background-image: url('https://darkwingchun.files.wordpress.com/2013/01/vader-cant-do-it-alone.jpg');
+					background-size: 100% 100%;
+				}
+			}
+
+			.friends{
+				margin-top: 5% !important;
+
+				.Darth{
+					background-image: url('http://www.geeknaut.com/images/2011/10/9DARTH-vADER.jpg?4ab706');
+					background-size: 100% 100%;
+				}
+
+				.Obi{
+					background-image: url('https://memoirsofhereafter.files.wordpress.com/2015/03/obi-wan-obi-wan-kenobi-23720174-665-814.jpg');
+					background-size: 100% 100%;
+				}
+
+				.Tramer{
+					background-image: url('http://images4.fanpop.com/image/photos/24100000/Funny-Stormtrooper-Wallpaper-star-wars-24174436-1920-1200.png');
+					background-size: 100% 100%;
+				}
+
+				.Taronja{
+					background-image: url('https://avatars1.githubusercontent.com/u/9766875?v=3&s=200');
+					background-size: 100% 100%;
+				}
+			}
+
+		}
+
+	}
+
+
+
+
+}
